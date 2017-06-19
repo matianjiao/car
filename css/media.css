@@ -1,0 +1,498 @@
+/*大屏幕*/
+@media (max-width: 1240px) {
+    .about-jianjie {
+        padding: 78px 150px;
+    }
+}
+
+@media (max-width: 991px) {
+    .ban-bj .ban-left {
+        padding-left: 38px;
+    }
+
+    .ban-iphone {
+        height: 560px;
+        background: url(../images/Phone-q.png) no-repeat -6px 17px;
+        background-size: 114%;
+    }
+
+    .ban-iphone {
+        margin-right: 0;
+    }
+
+    .about-jianjie {
+        padding: 78px 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    #navbar {
+        float: right;
+    }
+
+    .navbar-logo {
+        background-size: 90%;
+    }
+
+    .close {
+        display: none;
+    }
+}
+
+/*手机*/
+@media (max-width: 767px) {
+    /*===========1==========*/
+    .navbar-collapse {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background: #FEFEFE;
+        z-index: 1;
+    }
+
+    .navbar-nav > li > a {
+        margin: 35px 0;
+        color: #333;
+    }
+
+    /*=============2============*/
+    .ban-bj {
+        padding-top: 0;
+    }
+
+    .ban-bj .ban-left {
+        padding-left: 1.93rem;
+    }
+
+    .ban-word {
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.7px;
+    }
+
+    .ban-logo {
+        background-size: 88%;
+        background-position-x: left;
+    }
+
+    .ban-iphone {
+        height: 478px;
+        background: url(../images/Phone.png) no-repeat 346px 9px;
+        background-size: 48%;
+    }
+
+    /*============3=========*/
+    .auto-words {
+        line-height: 35px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 50px 0;
+    }
+
+    .zi-huakuai {
+        width: 42px;
+        margin-top: 26px;
+    }
+
+    /*===========4==========*/
+    .car3 {
+        height: 100px;
+        padding-left: 10px;
+    }
+
+    .car-title {
+        /*-webkit-transform:scale(0.8);*/
+        letter-spacing: 3px;
+        margin-top: 18px;
+    }
+
+    .car-title1 {
+        font-size: 16px;
+        letter-spacing: 3px;
+        margin: 3px 0;
+    }
+
+    .car-con {
+        opacity: 0.7;
+        font-size: 13px;
+    }
+
+    .car3-1 {
+        background: url("../images/pic_1.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .car3-2 {
+        background: url("../images/pic_2.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .car3-3 {
+        background: url("../images/pic_3.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    /*==========5=========*/
+    .phones-bj {
+        background: #f9f9f9;
+    }
+
+    .col-sm-6.iphones-fu {
+        width: 100%;
+        background: url(../images/iphones.png) no-repeat center bottom;
+        background-size: 100%;
+        margin-top: 76px;
+    }
+
+    .col-sm-6.btn-fu {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+
+    .phones-pos {
+        position: absolute;
+        top: -58px;
+        left: 50%;
+        margin-left: -134px;
+    }
+
+    .appbtn {
+        width: 40%;
+        background: url("../images/btn_appstore.png") no-repeat;
+        background-size: contain;
+        margin: 0 5% 0 7.5%;
+    }
+
+    .andbtn {
+        width: 40%;
+        background: url("../images/btn_android.png") no-repeat;
+        background-size: contain;
+    }
+
+    .iphones-title {
+        margin: 88px 0 14px 0;;
+    }
+
+    .iphones-con {
+        line-height: 30px;
+    }
+
+    /*footer*/
+    footer {
+        padding: 40px 0;
+        font-size: 12px;
+    }
+
+    /*关于我们*/
+    .navbar-header .han-white {
+        background: url("../images/ico_more_white.png") no-repeat center center;
+        background-size: 80%;
+    }
+
+    .ban-about {
+        height: 265px;
+        background: url("../images/pic_about_us.png") no-repeat center center;
+    }
+
+    .about-content {
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin: -41px 0 0 -77px;
+    }
+
+    .about-jianjie {
+        padding: 30px;
+    }
+
+    .about-jianjie p {
+        margin-bottom: 25px;
+        line-height: 28px;
+        font-size: 14px;
+    }
+
+    .address-p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .address-con {
+        width: 80%;
+        padding: 0 20px;
+        margin-top: -53px;
+        margin-left: -40%;
+    }
+
+    .about-huakuai {
+        margin-top: 13px;
+    }
+
+    .address {
+        width: 100%;
+        height: 151px;
+        background: url("../images/pic_address.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .address-words {
+        padding: 20px 0;
+    }
+
+    .address-con {
+        margin-top: 120px;
+    }
+
+    .current-add {
+        width: 18px;
+        height: 18px;
+        background-size: cover;
+        left: 47%;
+    }
+
+    .address-footer {
+        margin-top: 230px;
+    }
+
+    /*招聘*/
+    .ban-jobs {
+        background: url(../images/pic_jobs.png) no-repeat center center;
+    }
+
+    .jobs-content {
+        margin: -41px 0 0 -91px;
+        line-height: 41px;
+    }
+
+    .padd-left {
+        padding-left: 15px;
+    }
+
+    .padd-right {
+        padding-right: 15px;
+    }
+
+    .jobs-con {
+        display: none;
+    }
+
+    .title-2 {
+        margin-top: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .job-title {
+        padding: 16px 0;
+        border-bottom: 1px solid #E7E7E7;
+        font-size: 16px;
+    }
+
+    .job-type {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .lan-border {
+        width: 31px;
+        height: 2px;
+        margin: 24px 0 10px;
+    }
+
+    .job-arrow {
+        width: 35.2px;
+        height: 22px;
+        background: url(../images/Triangle.png) no-repeat center center;
+        background-size: 30%;
+        float: right;
+        transition: all ease 0.3s;
+        -moz-transition: all ease 0.3s; /* Firefox 4 */
+        -webkit-transition: all ease 0.3s; /* Safari 和 Chrome */
+        -o-transition: all ease 0.3s;
+    }
+    .email {
+        font-size: 18px;
+        padding: 30px 0;
+    }
+    .email:before{
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 13px;
+        background: url("../images/ico_mail.png");
+        background-size: cover;
+    }
+    .zhize {
+        font-size: 15px;
+    }
+    .jobs-con p {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 5px 0;
+    }
+
+}
+
+/*################### 6 #####################*/
+@media (max-width: 375px) {
+    /*=========1=======*/
+    .navbar-logo {
+        background-position: 6px;
+    }
+
+    /*=========2========*/
+    .ban-iphone {
+        height: 440px;
+        background: url(../images/Phone.png) no-repeat 366px 1px;
+        background-size: 45%;
+    }
+
+    .ban-logo {
+        background-size: 80%;
+        background-position-x: left;
+    }
+
+    .ban-logo1 {
+        background-size: 98%;
+        background-position-x: left;
+    }
+
+    .ban-bj .ban-left {
+        padding: 0 0 0 1.5rem;
+    }
+
+    /*============3=========*/
+    .auto-words {
+        line-height: 35px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 32px 0;
+    }
+
+    .zi-huakuai {
+        width: 38px;
+        margin-top: 20px;
+    }
+
+    /*=========5======*/
+    .iphones {
+        margin-top: -11px;
+    }
+
+    /*contact us*/
+    .contact {
+        width: 300px;
+        margin-left: -150px;
+    }
+
+    .con3 {
+        width: 80px;
+        height: 80px;
+        margin-right: 10%;
+    }
+
+    /*关于我们*/
+    .address-p {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 28px;
+        margin-top: 13px;
+    }
+
+    .about-huakuai {
+        width: 28px;
+        margin-top: 10px;
+    }
+}
+
+/*5,4*/
+@media (max-width: 320px) {
+    /*===========1=========*/
+    .navbar-logo {
+        background-size: 76%;
+        background-position: 0px;
+    }
+
+    /*==========2===========*/
+    .ban-iphone {
+        height: 390px;
+        background: url(../images/Phone.png) no-repeat 421px 5px;
+        background-size: 38%;
+    }
+
+    .ban-word {
+        width: 115%;
+    }
+
+    .ban-logo {
+        margin-top: 90px;
+        background-size: 70%;
+    }
+
+    .ban-logo1 {
+        background-size: 84%;
+        background-position-x: left;
+        margin: 7px 0 10px;
+    }
+
+    /*========3========*/
+    .auto-words {
+        line-height: 24px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding: 24px 0;
+    }
+
+    .zi-huakuai {
+        width: 30px;
+        margin-top: 15px;
+    }
+
+    /*========4=========*/
+    .car3 {
+        padding-left: 4px;
+    }
+
+    /*contact us*/
+    .contact {
+        width: 264px;
+        margin-left: -132px;
+        top: 35px;
+    }
+
+    .con3 {
+        width: 70px;
+        height: 70px;
+        margin-right: 10%;
+    }
+
+    .col-sm-6.iphones-fu {
+        margin-top: 36px;
+    }
+
+    /*footer*/
+    footer {
+        padding: 40px 50px;
+    }
+
+    /*关于我们*/
+    .address-p {
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 13px;
+    }
+
+    .about-huakuai {
+        width: 20px;
+        margin-top: 10px;
+    }
+
+    .address-footer {
+        margin-top: 199px;
+    }
+    .email {
+        font-size: 16px;
+    }
+
+}
+

@@ -1,0 +1,497 @@
+/*头部*/
+#nav-wrap {
+    background: #F9F9F9;
+    margin: 0;
+}
+
+.navbar-logo {
+    height: 100%;
+    width: 152px;
+    background: url(../images/nav_logo.png) no-repeat center center;
+    background-size: 80%;
+    top: 0px;
+    transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+}
+
+.navbar-brand {
+    height: 70px;
+    transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+}
+
+.navbar-nav {
+    font-family: 'PingFang_SC_L';
+    position: relative;
+}
+
+.navbar-nav > li > a {
+    color: #333333;
+    font-size: 20px;
+    letter-spacing: .05em;
+    padding: 24px 0px 20px;
+    margin: 0 1em 0px;
+    border-bottom: 1px solid transparent;
+    transition: all 250ms ease;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.huakuai {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    opacity: 0;
+}
+
+.huakuai-item {
+    width: 20px;
+    height: 2px;
+    background: #2D9DFF;
+    margin: 0px auto;
+}
+
+.huakuai-te {
+    bottom: 0px !important;
+    opacity: 1 !important;
+}
+
+.navbar-header .hanbaobao {
+    border-radius: 0;
+    width: 30px;
+    height: 24px;
+    background: url("../images/ico_more.png") no-repeat center center;
+    background-size: 80%;
+    margin: 22px 26px 0 0;
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 28px;
+    height: 28px;
+    background: url("../images/ico_close.png") no-repeat center center;
+    background-size: 80%;
+}
+
+/*banner*/
+.ban-bj {
+    padding-top: 20px;
+    background: #F9F9F9;
+}
+
+.ban-bj div {
+    padding: 0;
+}
+
+.ban-iphone {
+    float: right;
+    margin-right: 10%;
+    width: 665px;
+    height: 565px;
+    background: url("../images/Phone-q.png") no-repeat 0px 17px;
+    background-size: 113%;
+}
+
+.ban-bj .ban-left {
+    padding-left: 180px;
+}
+
+.ban-logo {
+    width: 74px;
+    height: 74px;
+    background: url("../images/pic_icon.png") no-repeat center center;
+    margin-top: 150px;
+}
+
+.ban-logo1 {
+    width: 152px;
+    height: 30px;
+    background: url("../images/nav_logo.png") no-repeat center center;
+    margin: 20px 0 10px;
+}
+
+.ban-word {
+    font-family: 'PingFang_SC_L';
+    font-size: 16px;
+    color: #595E65;
+    line-height: 29px;
+    letter-spacing: 3.34px;
+}
+
+.ban-down {
+    font-family: 'PingFang-Medium';
+    width: 132px;
+    height: 50px;
+    background: #2D9DFF;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.82px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.arr-down {
+    width: 15px;
+    height: 18px;
+    background: url("../images/ico_download1.png") no-repeat center center;
+    float: left;
+    margin: 16px 10px 0 18px;
+}
+
+/*---------------*/
+.auto-words {
+    font-family: 'LEIXO-DEMO';
+    line-height: 40px;
+    font-size: 20px;
+    letter-spacing: 2.31px;
+    color: #666;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.zi-huakuai {
+    width: 62px;
+    margin-top: 54px;
+}
+
+/*=========car3=======*/
+.car3 {
+    width: 100%;
+    height: 200px;
+    margin-top: -2px;
+}
+
+.car-title {
+    font-family: 'LEIXO-DEMO';
+    color: #55B5FC;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-top: 58px;
+}
+
+.car-title1 {
+    font-family: 'PingFang-Medium';
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: 8px 0;
+}
+
+.car-con {
+    font-family: 'PingFang_SC_L';
+    opacity: 0.7;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.car3-1 {
+    background: url("../images/pic1.png") no-repeat center center;
+    background-size: cover;
+}
+
+.car3-2 {
+    background: url("../images/pic2.png") no-repeat center center;
+    background-size: cover;
+}
+
+.car3-3 {
+    background: url("../images/pic3.png") no-repeat center center;
+    background-size: cover;
+}
+
+/*==========5=======*/
+.phones-bj {
+    padding-top: 88px;
+    background: url("../images/pic_download.png") no-repeat center bottom #f9f9f9;
+}
+
+.ban-bj .iphones-fu {
+    height: 365px;
+}
+
+.btn-fu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.phones-pos {
+    position: absolute;
+    top: 30px;
+    left: 20%;
+}
+
+.iphones-title {
+    font-family: 'LEIXO-DEMO';
+    font-size: 14px;
+    color: #55B5FC;
+    letter-spacing: 3.5px;
+    margin: 35px 0 20px 0;
+}
+
+.iphones-con {
+    font-family: 'PingFang-Medium';
+    opacity: 0.7;
+    font-size: 20px;
+    color: #666666;
+    letter-spacing: 6.85px;
+    line-height: 37px;
+}
+
+.btn2 {
+    margin-top: 20px;
+}
+
+.phone-btn {
+    display: block;
+    width: 142px;
+    height: 50px;
+    float: left;
+}
+
+.appbtn {
+    margin-right: 16px;
+    background: url("../images/btn_appstore.png");
+    background-size: cover;
+}
+
+.andbtn {
+    background: url("../images/btn_android.png");
+    background-size: cover;
+}
+
+/*======联系我们====*/
+.auto-words p {
+    font-family: 'PingFang-Medium';
+}
+
+.contact {
+    position: relative;
+    width: 341px;
+    top: 60px;
+    left: 50%;
+    margin-left: -170px;
+}
+
+.con3 {
+    width: 88px;
+    height: 88px;
+    float: left;
+    margin-right: 11%;
+}
+
+.con3-1 {
+    background: url("../images/btn_weibo.png");
+    background-size: cover;
+}
+
+.con3-2 {
+    background: url("../images/btn_wechat.png");
+    background-size: cover;
+}
+
+.con3-3 {
+    margin-right: 0 !important;
+    background: url("../images/btn_email.png");
+    background-size: cover;
+}
+
+/*footer*/
+footer {
+    padding: 60px 0;
+    font-family: PingFang-Medium;
+    font-size: 14px;
+    color: #CCCCCC;
+    background: #F9F9F9;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*======================关于我们=======================*/
+#nav-wrap.other-nav {
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.about-a > li > a {
+    color: #fff;
+}
+
+.ban-about {
+    width: 100%;
+}
+
+.logo-white {
+    background: url(../images/carben_logo.png) no-repeat center center;
+}
+
+.logo-zi {
+    width: 100%;
+    height: 100%;
+    font-family: PingFang_SC_L;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 8px;
+    line-height: 40px;
+}
+
+.ban-about {
+    position: relative;
+}
+
+.about-content {
+    font-family: LEIXO-DEMO;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 11.43px;
+    line-height: 82px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -41px 0 0 -151px;
+}
+
+.about-jianjie {
+    padding: 80px 229px;
+}
+
+.about-jianjie p {
+    font-family: PingFang_SC_L;
+    font-size: 20px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.address {
+    position: relative;
+}
+
+.current-add {
+    width: 36px;
+    height: 36px;
+    background: url("../images/Location.png") no-repeat center center;
+    position: absolute;
+    top: 44%;
+    left: 49%;
+}
+.address-con{
+    padding: 0 60px;
+    position: absolute;
+    left: 50%;
+    margin-top: -53px;
+    margin-left: -315px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 44px 0 rgba(0,0,0,0.04);
+}
+.about-huakuai{
+    margin-top: 15px;
+}
+.address-p{
+    font-family: PingFang_SC_L;
+    font-size: 20px;
+    color: #666666;
+    letter-spacing: 3px;
+    line-height: 45px;
+    margin-top: 20px;
+}
+.address-words{
+    padding:60px 80px;
+}
+.address-footer{
+    margin-top: 360px;
+}
+
+
+/*招聘*/
+.jobs-content{
+    font-family: PingFang-Medium;
+    text-align: center;
+    margin: -82px 0 0 -180px;
+}
+.job-type{
+    font-family: PingFang_SC_L;
+    font-size: 26px;
+    color: #666666;
+    letter-spacing: 0;
+    margin-top: 66px;
+}
+.lan-border{
+    background: #2D9DFF;
+    width: 62px;
+    height: 4px;
+    margin: 50px 0 34px;
+}
+.job-title{
+    font-family: PingFang_SC_L;
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 0;
+}
+.zhize{
+    font-family: PingFang_SC_L;
+    font-size: 20px;
+    color: #606373;
+    letter-spacing: -0.77px;
+    margin: 16px 0;
+}
+.jobs-con p{
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 26px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+.jobs-con p span{
+    background: #B8D2F0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    margin: 11px 0 0 -8px;
+}
+.title-2{
+    margin-top: 90px;
+    border-bottom: 1px solid #E7E7E7;
+    padding-bottom: 80px;
+}
+.email{
+    font-family: PingFang_SC_L;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 80px 0;
+}
+.email:before{
+    content: "";
+    display: inline-block;
+    width: 22.4px;
+    height: 16px;
+    background: url("../images/ico_email.png");
+    background-size: cover;
+}
+.job-fotter{
+    margin-top: 0;
+}
+.padd-left{
+    padding-left: 60px;
+}
+.padd-right{
+    padding-right: 60px;
+}
