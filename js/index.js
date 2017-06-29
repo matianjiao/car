@@ -72,7 +72,7 @@ $(function () {
         console.log(top);
         if ($(document).scrollTop()>top-580){
             var carinterval=setInterval(function () {
-                $(".car3").eq(carindex).find(".container").animate({marginLeft:"0px",opacity:"1"},400);
+                $(".car3").eq(carindex).find(".car-hui").animate({marginLeft:"0px",opacity:"1"},400);
                 carindex++;
                 console.log($(".car3").length)
                 if(carindex>$(".car3").length){
