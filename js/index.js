@@ -140,10 +140,10 @@ $(function () {
     })
 
 
-    $(document).onload(function () {
+    window.onload=function () {
         $(".ban-left").animate({left: "0%", opacity: "1"}, 400);
         $(".ban-right").animate({right: "0%", opacity: "1"}, 600);
-    })
+    }
 
 
 })
