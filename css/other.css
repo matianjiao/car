@@ -40,14 +40,20 @@
 }
 
 .huakuai {
-    width: 100%;
+    width: 90px;
     height: 2px;
     position: absolute;
-    bottom: -10px;
+    bottom: 6px;
     left: 0px;
-    opacity: 0;
 }
-
+.huakuai1{
+    width: 140px;
+    left: 90px;
+}
+.huakuai2{
+    width: 140px;
+    left: 230px;
+}
 .huakuai-item {
     width: 20px;
     height: 2px;
@@ -62,26 +68,29 @@
 
 .navbar-header .hanbaobao {
     border-radius: 0;
-    width: 30px;
-    height: 24px;
+    width: 15px;
+    height: 12px;
     background: url("../images/ico_more.png") no-repeat center center;
-    background-size: 80%;
-    margin: 22px 26px 0 0;
+    background-size: 100%;
+    margin: 29px 30px 0 0;
+    padding: 0;
 }
 
 .close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 28px;
-    height: 28px;
+    top: 28px;
+    right: 31px;
+    width: 12.5px;
+    height: 12.5px;
     background: url("../images/ico_close.png") no-repeat center center;
-    background-size: 80%;
+    background-size: 100%;
+    filter: alpha(opacity=40);
+    opacity: .4;
 }
 
 /*banner*/
 .ban-bj {
-    padding-top: 20px;
+    padding-top: 90px;
     background: #F9F9F9;
 }
 
@@ -100,8 +109,13 @@
 
 .ban-bj .ban-left {
     padding-left: 180px;
+    left: -35%;
+    opacity: 0;
 }
-
+.ban-right{
+    right: -83%;
+    opacity: 0;
+}
 .ban-logo {
     width: 74px;
     height: 74px;
@@ -135,6 +149,15 @@
     letter-spacing: 0.82px;
     line-height: 50px;
     margin-top: 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+.ban-down:hover{
+    background: #0075ff;
 }
 
 .arr-down {
@@ -167,7 +190,10 @@
     height: 200px;
     margin-top: -2px;
 }
-
+.car3 .container{
+    margin-left: -30%;
+    opacity: 0;
+}
 .car-title {
     font-family: 'LEIXO-DEMO';
     color: #55B5FC;
@@ -252,20 +278,30 @@
 
 .phone-btn {
     display: block;
-    width: 142px;
+    width: 138px;
     height: 50px;
     float: left;
 }
 
 .appbtn {
     margin-right: 16px;
-    background: url("../images/btn_appstore.png");
-    background-size: cover;
+    background: url("../images/btn_appstore.png") no-repeat center center;
+    background-size: 100%;
 }
-
+.appbtn:hover{
+    background: url("../images/btn_appstore_hover.png") no-repeat;
+    background-size: 100%;
+}
 .andbtn {
-    background: url("../images/btn_android.png");
-    background-size: cover;
+    background: url("../images/btn_android.png") no-repeat center center;
+    background-size: 100%;
+}
+.andbtn:hover {
+    background: url("../images/btn_android_hover.png") no-repeat;
+    background-size: 100%;
+}
+.wap-header{
+    color: #51555B !important;
 }
 
 /*======联系我们====*/
@@ -286,8 +322,13 @@
     height: 88px;
     float: left;
     margin-right: 11%;
+    position: relative;
 }
-
+.con3 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .con3-1 {
     background: url("../images/btn_weibo.png");
     background-size: cover;
@@ -303,7 +344,16 @@
     background: url("../images/btn_email.png");
     background-size: cover;
 }
-
+.yin-erweima{
+    width: 246px;
+    height: 253px;
+    background: url(../images/qrcode.png);
+    background-size: 100%;
+    position: absolute;
+    top: -253px;
+    left: -79px;
+    display: none;
+}
 /*footer*/
 footer {
     padding: 60px 0;
@@ -321,6 +371,9 @@ footer {
     position: fixed;
     background: rgba(0, 0, 0, 0.4);
     z-index: 1;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
 }
 
 .about-a > li > a {
@@ -339,9 +392,9 @@ footer {
     width: 100%;
     height: 100%;
     font-family: PingFang_SC_L;
-    font-size: 20px;
+    font-size: 14px;
     color: #FFFFFF;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     line-height: 40px;
 }
 

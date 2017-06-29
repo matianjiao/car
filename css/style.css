@@ -3,6 +3,7 @@ html {
 }
 body{
     font-family: "微软雅黑";
+    overflow-x: hidden;
 }
 html, body, h1, h2, h3, h4, h5, h6, p, a, span, ul, li {
     margin: 0;
