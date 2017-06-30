@@ -46,8 +46,8 @@ $(function () {
     $(document).scroll(function () {
         //首页banner 文字与手机
         if ($(document).scrollTop() >80) {
-            $(".ban-logo").css({marginTop: "100px"});
-            $(".ban-iphone").css({marginTop:"-80px"});
+            $(".ban-logo").css({marginTop: "120px"});
+            $(".ban-iphone").css({marginTop:"-100px"});
         }else{
             $(".ban-logo").css({marginTop: "150px"});
             $(".ban-iphone").css({marginTop:"0px"});
