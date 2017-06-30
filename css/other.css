@@ -105,22 +105,28 @@
     height: 565px;
     background: url("../images/Phone-q.png") no-repeat 0px 17px;
     background-size: 113%;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
 }
 
 .ban-bj .ban-left {
     padding-left: 180px;
-    left: -35%;
-    opacity: 0;
+    /*left: 0%;*/
+    /*opacity: 1;*/
 }
 .ban-right{
-    right: -83%;
-    opacity: 0;
+    /*right: 0%;*/
+    /*opacity:1;*/
 }
 .ban-logo {
     width: 74px;
     height: 74px;
     background: url("../images/pic_icon.png") no-repeat center center;
     margin-top: 150px;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
 }
 
 .ban-logo1 {
@@ -281,6 +287,9 @@
     width: 138px;
     height: 50px;
     float: left;
+    transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
 }
 
 .appbtn {
@@ -415,16 +424,18 @@ footer {
 }
 
 .about-jianjie {
+    color: #666666;
     padding: 80px 229px;
 }
-
+.about-jianjie h1{
+    font-size: 20px;
+}
 .about-jianjie p {
     font-family: PingFang_SC_L;
-    font-size: 20px;
-    color: #666666;
+    font-size: 16px;
     letter-spacing: 0;
     line-height: 32px;
-    margin-bottom: 45px;
+    margin: 30px 0;
     text-align: justify;
 }
 
@@ -548,3 +559,4 @@ footer {
 .padd-right{
     padding-right: 60px;
 }
+

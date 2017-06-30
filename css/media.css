@@ -41,6 +41,11 @@
 
 /*手机*/
 @media (max-width: 767px) {
+    /*title 各页面显示不正确*/
+    .index-hidden .index-item,.job-hidden .job-item,.about-hidden .about-item{
+        display: none;
+    }
+    /*=========*/
     /*===========1==========*/
     .navbar-collapse {
         width: 100%;
@@ -62,7 +67,7 @@
         margin-top: 12.5px;
     }
     .navbar-brand{
-        padding-left: 30px;
+        padding-left: 1.93rem;
     }
     /*=============2============*/
     .ban-bj {
@@ -120,7 +125,6 @@
     /*===========4==========*/
     .car3 {
         height: 100px;
-        padding-left: 10px;
     }
 
     .car-title {
@@ -401,7 +405,9 @@
         background-size: 98%;
         background-position-x: left;
     }
-
+    .navbar-brand{
+        padding-left: 1.5rem;
+    }
     .ban-bj .ban-left {
         padding: 0 0 0 1.5rem;
     }
@@ -489,9 +495,6 @@
     }
 
     /*========4=========*/
-    .car3 {
-        padding-left: 4px;
-    }
 
 
     .col-sm-6.iphones-fu {

@@ -42,10 +42,19 @@ $(function () {
 
     })
 
-
+    //滚动鼠标
     $(document).scroll(function () {
+        //首页banner 文字与手机
+        if ($(document).scrollTop() >80) {
+            $(".ban-logo").css({marginTop: "100px"});
+            $(".ban-iphone").css({marginTop:"-80px"});
+        }else{
+            $(".ban-logo").css({marginTop: "150px"});
+            $(".ban-iphone").css({marginTop:"0px"});
+        }
+
+        //wap与web端 header部分协调
         var panduan = getClientInfo();
-        console.log(panduan)
         if (panduan == "PC") {
         } else {
             $(".scroll-nav li a").addClass("wap-header");
@@ -69,7 +78,6 @@ $(function () {
         //    三行图片的区域
         var top = $(".car3").offset().top;
         var carindex=0;
-        console.log(top);
         if ($(document).scrollTop()>top-580){
             var carinterval=setInterval(function () {
                 $(".car3").eq(carindex).find(".car-hui").animate({marginLeft:"0px",opacity:"1"},400);
@@ -78,25 +86,25 @@ $(function () {
                 if(carindex>$(".car3").length){
                     clearInterval(carinterval);
                 }
-            },200)
+            },100)
 
         }
     })
 
 
 //    招聘
-    $(".job-arrow").click(function () {
+    $(".job-title").click(function () {
         $(".job-arrow").css({transform: "rotateZ(0deg)"});
         $(".job-arrow").parent().parent().find(".jobs-con").slideUp(300);
-        var jobsCon = $(this).parent().parent().find(".jobs-con");
+        var jobsCon = $(this).parent().find(".jobs-con");
         if (jobsCon.attr("kaiguan") == "he") {
             jobsCon.slideDown(300);
             jobsCon.attr("kaiguan", "kai");
-            $(this).css({transform: "rotateZ(180deg)"});
+            $(this).find(".job-arrow").css({transform: "rotateZ(180deg)"});
         } else {
             jobsCon.slideUp(300);
             jobsCon.attr("kaiguan", "he");
-            $(this).css({transform: "rotateZ(0deg)"});
+            $(this).find(".job-arrow").css({transform: "rotateZ(0deg)"});
         }
     })
 
@@ -141,8 +149,8 @@ $(function () {
 
 
     window.onload=function () {
-        $(".ban-left").animate({left: "0%", opacity: "1"}, 400);
-        $(".ban-right").animate({right: "0%", opacity: "1"}, 600);
+        // $(".ban-left").animate({left: "0%", opacity: "1"}, 300);
+        // $(".ban-right").animate({right: "0%", opacity: "1"}, 500);
     }
 
 
