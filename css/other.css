@@ -170,6 +170,7 @@
     width: 15px;
     height: 18px;
     background: url("../images/ico_download.svg") no-repeat center center;
+    background-size: cover;
     float: left;
     margin: 16px 10px 0 18px;
 }
