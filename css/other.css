@@ -133,6 +133,7 @@
     width: 152px;
     height: 30px;
     background: url("../images/pic_logo.svg") no-repeat center center;
+    background-size: 100%;
     margin: 20px 0 10px;
 }
 
