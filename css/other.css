@@ -132,7 +132,7 @@
 .ban-logo1 {
     width: 152px;
     height: 30px;
-    background: url("../images/nav_logo.png") no-repeat center center;
+    background: url("../images/pic_logo.svg") no-repeat center center;
     margin: 20px 0 10px;
 }
 
@@ -431,7 +431,7 @@ footer {
     font-size: 20px;
 }
 .about-jianjie p {
-    font-family: PingFang_SC_L;
+    /*font-family: PingFang_SC_L;*/
     font-size: 16px;
     letter-spacing: 0;
     line-height: 32px;
@@ -499,7 +499,7 @@ footer {
     margin: 50px 0 34px;
 }
 .job-title{
-    font-family: PingFang_SC_L;
+    /*font-family: PingFang_SC_L;*/
     font-size: 24px;
     color: #333333;
     letter-spacing: 0;
@@ -538,7 +538,7 @@ footer {
     padding-bottom: 80px;
 }
 .email{
-    font-family: PingFang_SC_L;
+    /*font-family: PingFang_SC_L;*/
     font-size: 20px;
     color: #333333;
     letter-spacing: 0;
